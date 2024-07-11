@@ -9,6 +9,11 @@ import { TwoWayBindingComponent } from './Learnig-topics/two-way-binding/two-way
 import { DataBindingComponent } from './Learnig-topics/data-binding/data-binding.component';
 import { PropertyBindingComponent } from './Learnig-topics/property-binding/property-binding.component';
 import { EventBindingComponent } from './Learnig-topics/event-binding/event-binding.component';
+import { NgIfLearnComponent } from './Learnig-topics/Structural-directive/ng-if-learn/ng-if-learn.component';
+import { NgStyleLearnComponent } from './Learnig-topics/Attribute-directive/ng-style-learn/ng-style-learn.component';
+import { NgClassLearnComponent } from './Learnig-topics/Attribute-directive/ng-class-learn/ng-class-learn.component';
+import { NgForLearnComponent } from './Learnig-topics/Structural-directive/ng-for-learn/ng-for-learn.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { EventBindingComponent } from './Learnig-topics/event-binding/event-bind
     TwoWayBindingComponent,
     DataBindingComponent,
     PropertyBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    NgIfLearnComponent,
+    NgStyleLearnComponent,
+    NgClassLearnComponent,
+    NgForLearnComponent,
+    
   ],
   imports: [
     BrowserModule,
